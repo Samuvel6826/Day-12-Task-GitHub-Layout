@@ -1,0 +1,143 @@
+html,body{
+    box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+  background-color: rgb(202, 210, 197);
+}
+
+.nav-container{
+width: 110vw;
+height: 150px;
+background-color: rgb(47, 61, 70);
+color: rgb(202, 210, 197);
+margin-bottom: 50px;
+display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 600px) {
+  .nav-container{
+    margin-bottom: 25px;
+  }
+}
+
+p{
+  font-size: 6rem;
+  margin: 0 35% 0 35%;
+}
+
+@media screen and (max-width: 600px) {
+  p{
+    font-size: 4rem;
+    margin: 0 0 0 0;
+  }
+}
+
+.fa-github{
+  font-size: 6rem;
+}
+
+@media screen and (max-width: 600px) {
+  .fa-github{
+    font-size: 4rem;
+  }
+}
+
+.content-container{
+  width: 100%;
+  height: calc(100% - 50px);
+  display: flex;
+  flex-direction: row;
+}
+
+@media screen and (max-width: 600px) {
+  .content-container{
+    flex-direction: column;
+  }
+}
+
+.sidebar{
+width: 400px;
+height: 535px;
+background-color: rgb(41, 41, 41);
+border-radius: 20px;
+margin: 0 75px 0 75px;
+}
+
+@media screen and (max-width: 600px) {
+  .sidebar{
+    width: 90%;
+    margin: 0 0 0 20px;
+    }
+}
+
+.content-area{
+width: 70%;
+padding: 10px;
+}
+
+@media screen and (max-width: 600px) {
+  .content-area{
+    width: 100%;
+    padding: 0px;
+    }
+}
+
+.search-area{
+  margin: 0 0 50px 80px;
+}
+
+@media screen and (max-width: 600px) {
+  .search-area{
+    margin: 25px 0 20px 50px;
+    }
+}
+
+.search-input{
+width:85%;
+height: 50px;
+background: rgb(41, 41, 41);
+border-radius: 10px;
+color: white;
+font-size: 1.5rem;
+outline: none;
+padding: 10px;
+padding-left: 25px;
+box-sizing: border-box;
+}
+
+.results{
+display: flex;
+justify-content: space-between;
+margin: 0 0 50px 0;
+}
+
+@media screen and (max-width: 600px) {
+  .results{
+    display: flex;
+    justify-content: space-around;
+    margin: 0 0 20px 0;
+    }
+}
+
+.rectangle { 
+width: 27%; 
+height: 175px; 
+background: rgb(41, 41, 41); 
+border-radius: 20px; 
+} 
+
+.component { 
+  width: 100%; 
+  height: 175px; 
+  background: rgb(41, 41, 41); 
+  border-radius: 20px; 
+  }
+
+  @media screen and (max-width: 600px) {
+    .component { 
+      width: 90%;
+      margin: 0 0 20px 20px;
+      }
+  }
